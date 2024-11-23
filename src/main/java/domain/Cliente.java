@@ -2,11 +2,11 @@ package domain;
 
 import java.util.List;
 
-public class Client {
+public class Cliente {
     private String nombre;
-    private List<Product> products;
+    private List<Producto> products;
 
-    public Client(String nombre, List<Product> products) {
+    public Cliente(String nombre, List<Producto> products) {
         this.nombre = nombre;
         this.products = products;
     }
@@ -15,7 +15,7 @@ public class Client {
         return nombre;
     }
 
-    public List<Product> getProductos() {
+    public List<Producto> getProductos() {
         return products;
     }
 }
